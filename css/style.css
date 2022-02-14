@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.body {
+    font-family: "open-sans", sans-serif;
+    background-image: url("../assets/images/default.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.btn-primary {
+    background-color: #dd8826;
+    border: none;
+}
+
+.input {
+    text-align: center;
+    margin: 100px 0;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    width: 100%;
+}
+
+input[type="text"] {
+    height: 50px;
+    width: 600px;
+    background-color: #e7e7e7;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 10px;
+}
+
+input[type="submit"] {
+    height: 50px;
+    width: 100px;
+    background-color: #e7e7e7;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.display {
+    text-align: center;
+
+}
+
+.cust-input{
+    /* align-items: left; */
+    margin: 10px auto;
+    border-radius: 25%;
+    text-align: center;
+}
+
+.cust-btn {
+    margin: 10px auto;
+    border-radius: 25px;
+    width: 200px;
+}
+
+.jumbotron {
+    text-align: center;
+    position: relative;
+    margin: 50px 10px;
+    padding: 10px 50px;
+}
+.jumbotron .bg {
+    position: absolute;
+    
+    /* height: 300px;
+    height: 200px; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(117, 50, 11, 0.788);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+     -o-filter: blur(3px);
+     -ms-filter: blur(3px);
+     filter: blur(3px);
+     z-index: -1;
+}
+
+.cust-heading {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.desc-img {
+    background-image: url("../assets/icons/default.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+}
+.temp-img {
+    background-image: url("../assets/icons/temp.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+}
+.humidity-img {
+    background-image: url("../assets/icons/humidity.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+}
+
+.cust-txt {
+    color: #ffffff;
+}
+
+.cust-subhead {
+    font-size: 16px;
+    color: #ffffff;
+}
