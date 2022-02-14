@@ -1,3 +1,5 @@
+import {api_key} from 'private.js';
+
 var body = document.querySelector('.body')
 var button = document.querySelector('.button')
 var inputValue = document.querySelector('.inputValue')
@@ -6,11 +8,12 @@ var city = document.querySelector('.city')
 var temp = document.querySelector('.temp')
 var appear = document.querySelector('.appear')
 var humidity = document.querySelector('.humidity')
+var apiKey = api_key;
 
 
 button.addEventListener('click', function() {
 
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${inputValue.value}&appid=63e806ba3f7b1d5c4ceb41061188cbbb`)
+    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${inputValue.value}&appid=${apiKey}`)
     .then(response => response.json())
     .then(data => {
         var cityValue = data['name'];
